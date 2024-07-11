@@ -1,0 +1,12 @@
+Source: ros-humble-kiss-icp
+Section: misc
+Priority: optional
+Maintainer: ivizzo <ignaciovizzo@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libeigen3-dev, libtbb-dev, robin-map-dev, ros-humble-ament-cmake, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rcutils, ros-humble-sensor-msgs, ros-humble-sophus, ros-humble-std-msgs, ros-humble-tf2-ros, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-kiss-icp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libeigen3-dev, libtbb-dev, robin-map-dev, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rcutils, ros-humble-ros2launch, ros-humble-rviz2, ros-humble-sensor-msgs, ros-humble-sophus, ros-humble-std-msgs, ros-humble-tf2-ros, ros-humble-ros-workspace
+Description: KISS-ICP ROS 2 Wrapper
